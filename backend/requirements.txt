@@ -1,0 +1,38 @@
+# Core framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-dotenv==1.0.1
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# File upload
+python-multipart==0.0.9
+aiofiles==23.2.1
+
+# PDF parsing
+pymupdf==1.24.3
+pdfplumber==0.11.0
+
+# Office documents
+python-docx==1.1.2
+pandas==2.2.2
+openpyxl==3.1.2
+
+# Image handling
+pillow==10.3.0
+
+# Universal document parser (the backbone)
+unstructured[all-docs]==0.13.7
+matplotlib==3.9.0
+pytesseract==0.3.13
+# Chunking
+langchain-text-splitters==0.2.2
+
+# Database
+sqlalchemy==2.0.30
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+pgvector==0.2.5
+
+# Embeddings
+openai==1.30.1
